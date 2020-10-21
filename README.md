@@ -11,11 +11,11 @@ mechanism) for fog computing environments.
 ## FogAltas components
 
 FogAtlas is composed by:
-1. some [Custom Resource Definitions](../crd-client-go/crd-definitions) that model a distributed infrastructure (Region,
+1. some [Custom Resource Definitions](https://github.com/fogatlas/crd-client-go/crd-definitions) that model a distributed infrastructure (Region,
 Link, ExernalEndpoint);
 1. a Custom Resource Definition that models and extends a k8s Deployment, called
-[FADepl](../crd-client-go/crd-definitions/crd_fadepl.yaml);
-1. a controller of the introduced CRDs called [fadepl-controller](../fadepl-controller);
+[FADepl](https://github.com/fogatlas/crd-client-go/crd-definitions/crd_fadepl.yaml);
+1. a controller of the introduced CRDs called [fadepl-controller](https://github.com/fogatlas/fadepl-controller);
 1. other components, namely:
    * a monitoring system based on a vanilla Prometheus plus customized exporters
     in order to measure network  parameters (bandwidth and latency) of a distributed
@@ -30,7 +30,7 @@ Link, ExernalEndpoint);
 ## FogAtlas installation
 
 For installing the Open Source components of FogAtlas, please follow the instruction
-detailed [here](../fadepl-controller/README.md).
+detailed [here](https://github.com/fogatlas/fadepl-controller/README.md).
 
 For any problem, do not hesitate to open an issue.
 
