@@ -35,7 +35,7 @@ For any problem, do not hesitate to open an issue.
 ## FogAtlas Legacy
 
 The organization [FogAtlas legacy](https://github.com/fogatlas-legacy) contains an older
-version of FogAtlas that you can check out because of the _demo kit_ a tool that can
+version of FogAtlas that you can check out so as to execute the _demo kit_, a tool that can
 be used to play with FogAtlas in a virtual environment in order to get an idea
 of the FogAtlas features.
 The _demo_kit_ is not yet available for the newer version.    
