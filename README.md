@@ -28,7 +28,7 @@ Link, ExernalEndpoint) and to extends a k8s Deployment, called FADepl;
 ## FogAtlas installation
 
 For installing the Open Source components of FogAtlas, please follow the instruction
-detailed [here](https://github.com/fogatlas/fadepl-controller).
+detailed [here](https://github.com/fogatlas/fadepl-controller#what-you-need-to-do-in-order-to-play-with-fadepl-controller).
 
 For any problem, do not hesitate to open an issue.
 
@@ -42,7 +42,7 @@ The _demo_kit_ is not yet available for the newer version.
 
 ## More Information
 
-See [here](http://fogatlas.fbk.eu) for more information on the project.
+See [here](http://fogatlas.fbk.eu) for more information on FogAtlas project.
 
 
 ## License
