@@ -12,7 +12,7 @@ mechanism) for fog computing environments.
 
 FogAtlas is composed by:
 1. some [Custom Resource Definitions](https://github.com/fogatlas/crd-client-go) that model a distributed infrastructure (Region,
-Link, ExernalEndpoint) and to extends a k8s Deployment, called FADepl;
+Link, ExernalEndpoint) and extend a k8s Deployment, called FADepl;
 1. a controller of the introduced CRDs called [fadepl-controller](https://github.com/fogatlas/fadepl-controller);
 1. other components, namely:
    * a monitoring system based on a vanilla Prometheus plus customized exporters
@@ -21,7 +21,9 @@ Link, ExernalEndpoint) and to extends a k8s Deployment, called FADepl;
    * a set of GUIs able to provide a topological view of a distributed
    infrastructure and to model and deploy a microservice-based application on that infrastructure;
    * a set of Ansible playbooks for automatically setting up a distributed physical/virtual environment based
-   on OpenStack, Docker, Kubernetes and, in case of a public environment, protected with a VPN.
+   on OpenStack, Docker, Kubernetes and, in case of a public environment, protected with a VPN;
+   * scheduling algorithms able to conveniently place the workload on a k8s distributed cluster; 
+   * a QoS optimizer component able to guarantee that application requirements are satisfied.
 
    These components are not publicly available at the moment.
 
