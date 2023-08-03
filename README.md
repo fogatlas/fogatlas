@@ -6,14 +6,14 @@ FogAtlas is a software framework aiming to manage a geographically distributed a
 that provides computational, storage and network services close to the data sources and the users, embracing the Fog Computing paradigm. 
 FogAtlas is able to manage the so called Cloud-to-Thing Continuum offering service-aware workload placement and zero-touch deployment. 
 
-FogAtlas is built on top of Kubernetes and other Open Source technologies, 
+FogAtlas is built on top of Kubernetes and other Open Source technologies.
 
 ## More Information
 
 * See [here](http://fogatlas.fbk.eu) for more information on FogAtlas project.
-* See [here](https://gitlab.fbk.eu/fogatlas-k8s) for the code repositories of the publicly available components of FogAtlas. Currently the code is hosted on the FBK gitlab for contractual reasons. However it can be accessed and cloned from there.
+* See [Gitlab FBK](https://gitlab.fbk.eu/fogatlas-k8s) for the code repositories of the publicly available components of FogAtlas. Currently the code is hosted on the FBK gitlab for contractual reasons. However it can be accessed and cloned from there.
 
-For any question on FogAtlas and/or on its code repositories, do not hesitate to open an issue [here(https://github.com/fogatlas/fogatlas/issues).
+For any question on FogAtlas and/or on its code repositories, do not hesitate to open an issue [here](https://github.com/fogatlas/fogatlas/issues).
 
 ## FogAtlas Legacy
 
