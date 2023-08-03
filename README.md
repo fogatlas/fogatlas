@@ -12,6 +12,7 @@ FogAtlas is built on top of Kubernetes and other Open Source technologies.
 
 * See [here](http://fogatlas.fbk.eu) for more information on FogAtlas project.
 * See [Gitlab FBK](https://gitlab.fbk.eu/fogatlas-k8s) for the code repositories of the publicly available components of FogAtlas. Currently the code is hosted on the FBK gitlab for contractual reasons. However it can be accessed and cloned from there.
+* [Here](https://gitlab.fbk.eu/fogatlas-k8s/uc-ccam) an application of FogAtlas to CCAM is provided. 
 
 For any question on FogAtlas and/or on its code repositories, do not hesitate to open an issue [here](https://github.com/fogatlas/fogatlas/issues).
 
